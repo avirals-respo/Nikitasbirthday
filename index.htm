@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday Nikita 🎂</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      margin: 0;
+      background: linear-gradient(180deg, #fff0f5, #ffffff);
+      color: #333;
+      overflow-x: hidden;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 420px;
+      margin: auto;
+    }
+
+    .center {
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 10px;
+      color: #ff4d6d;
+    }
+
+    h2 {
+      font-size: 1.4rem;
+      color: #ff4d6d;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #555;
+    }
+
+    .date {
+      font-size: 0.9rem;
+      color: #999;
+    }
+
+    .card {
+      background: white;
+      border-radius: 18px;
+      padding: 20px;
+      margin: 30px 0;
+      box-shadow: 0 15px 30px rgba(0,0,0,0.08);
+      animation: fadeUp 1s ease forwards;
+    }
+
+    .number {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #ffe0e8;
+    }
+
+    img {
+      width: 100%;
+      border-radius: 14px;
+      margin-top: 15px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      color: #888;
+      font-size: 0.9rem;
+    }
+
+    @keyframes fadeUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    .gallery {
+  overflow-x: auto;
+  display: flex;
+  gap: 16px;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 10px;
+}
+
+.gallery::-webkit-scrollbar {
+  display: none;
+}
+
+.gallery img {
+  flex: 0 0 80%;
+  max-width: 80%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 18px;
+  scroll-snap-align: center;
+  box-shadow: 0 12px 25px rgba(0,0,0,0.12);
+}
+.memory-video {
+  width: 100%;
+  border-radius: 14px;
+  margin-top: 15px;
+  box-shadow: 0 10px 22px rgba(0,0,0,0.12);
+  touch-action: manipulation;
+}
+.hero {
+  position: relative;
+  height: 100vh;
+  background: url("hero.jpg.jpeg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+}
+
+.hero-content {
+  position: relative;
+  text-align: center;
+  padding: 20px;
+  max-width: 360px;
+}
+
+/* TOP TITLE */
+.hero-title {
+  margin-bottom: 40px; /* SPACE BETWEEN TITLE & TEXT */
+}
+
+.hero-title h1 {
+  font-size: 2.3rem;
+  color: #ff4d6d;
+  
+  transform: translateY(-45px); /* MOVE TITLE UP */
+}
+
+/* LOWER TEXT */
+.hero-text {
+  margin-top: 20px;
+}
+
+.hero-text .date {
+  color: #ffffff;
+  font-size: 1rem;
+  margin-bottom: 12px;
+}
+
+.hero-text p {
+  color: #ffffff;
+  opacity: 0.95;
+  line-height: 1.6;
+}
+
+
+
+.hero h1 {
+  font-size: 4rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  color: #f5f5f5;
+}
+.overlay {
+  backdrop-filter: blur(2px);
+  background: rgba(0,0,0,0.35);
+}
+
+.love-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 20px;
+}
+
+.love-item {
+  background: #fff0f5;
+  padding: 14px 16px;
+  border-radius: 14px;
+  font-size: 0.95rem;
+  color: #444;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.08);
+  animation: fadeUp 0.8s ease forwards;
+}
+
+  </style>
+
+</head>
+
+<body>
+
+  <!-- INTRO -->
+  <!-- HERO SECTION -->
+<section class="hero">
+  <div class="overlay"></div>
+
+  <div class="hero-content">
+
+    <!-- TOP PART -->
+    <div class="hero-title">
+      <h1>Happy Birthday<br> Nikita 🎂</h1>
+    </div>
+
+    <!-- BOTTOM PART -->
+    <div class="hero-text">
+      <p class="date">14th January</p>
+      <p>
+        This little website is just for you 💖  
+        A place where memories, smiles, and love live forever.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+
+
+  <!-- MEMORY 01 -->
+  <section class="card">
+    <div class="number">01</div>
+    <h2>How It All Started</h2>
+    <p>
+      From the moment you entered my life, everything felt warmer, brighter,
+      and more meaningful.<br>And how can I forget how we met almost feels like an unreleased movie (It'll be blockbuster tho).
+    </p>
+    
+    <!-- ADD PHOTO LATER -->
+     <img src="photo1.jpg.jpeg">
+  </section>
+
+  <!-- MEMORY 02 -->
+  <section class="card">
+    <div class="number">02</div>
+    <h2>My Favorite Smile</h2>
+    <p>
+      Your smile has the power to fix my worst days and make good days perfect.<br>You smile and ask 'What?' and I say 'Nothing.' It’s a little routine we have—one that happens every time, and one I never get tired of..
+    </p>
+    <img src="photo2.jpg.jpeg">
+  </section>
+
+  <!-- MEMORY 03 -->
+  <section class="card">
+    <div class="number">03</div>
+    <h2>Unforgettable Moments</h2>
+    <p>
+      Every moment with you becomes a memory I want to keep forever.<br>I remember every moment spent together either it is melange ki shopping ke trips, VCs, Bangla Saheb (haa trauma hai but okayy), every moment and we'll be making more and more and more...
+    </p>
+    <img src="photo3.jpg.jpeg">
+  </section>
+  <section class="card">
+  <div class="number">04</div>
+  <h2>Memories 💕</h2>
+  <p>Swipe through some of my favorite moments of you and with you.</p>
+
+  <div class="gallery">
+    <!-- ADD PHOTOS HERE -->
+    <img src="photo4.jpeg">
+    <img src="photo5.jpeg">
+    <img src="photo6.jpeg">
+    <img src="photo7.jpeg">
+    <img src="photo9.jpeg">
+    <img src="photo10.jpeg">
+    <img src="photo8.jpeg">
+    <img src="photo11.jpeg">
+    <img src="photo12.jpeg">
+
+
+  </div>
+</section>
+<section class="card">
+  <div class="number">05</div>
+  <h2>Why I Love You 💖</h2>
+
+  <div class="love-list">
+    <div class="love-item">Your smilee that lights up my day</div>
+    <div class="love-item">Your eyes obv whenever I see them there is only one thing that comes in my mind (EYE CONTACT BHI KYA CHEEZ HAI)</div>
+    <div class="love-item">Your kindness and babygirl personality ofc</div>
+    <div class="love-item">How I time tavel with you, even 4-5hrs feel like 10 mins</div>
+    <div class="love-item">Because being with you feels like home</div>
+    <div class="love-item">MAI AGAR KAHOON TUMSA HASEEN QAYNAT MEIN NAHI HAI KAHI</div>
+  </div>
+</section>
+<section class="card">
+  <div class="number">06</div>
+  <h2>Music 💕</h2>
+  <p>Songs played a musical role for us and I love when you add my songs to 19th sep playlist(ik I have a great music taste tho).<br> And I'll keep recommending more and I hope you'll listen more . </p>
+
+  <div class="gallery">
+    <!-- ADD PHOTOS HERE -->
+    <img src="barbaad.jpeg">
+    <img src="yezdi.jpeg">
+    <img src="adityarikhari.jpeg">
+    <img src="raatbhar.jpeg">
+    <img src="hoes.jpeg">
+    <img src="chaand.jpeg">
+    <img src="classmate.jpeg">
+    <img src="rtc.jpeg">
+    
+
+
+  </div>
+  
+</section>
+
+
+  <!-- FINAL MESSAGE -->
+  <section class="center">
+    <h2>💖 A Message For You</h2>
+    <p>
+      Nikita Raina, (I LOVE WRITING YOUR NAME BAAR BAAR) on your birthday and every day after,
+      I wish you happiness, love, success, and everything beautiful
+      this world has to offer.
+    </p>
+    <p>
+      Happy Birthday once again 🎉  
+      You mean more to me than words can explain.
+      I may not always find the perfect words,
+but one thing is certain — you mean a lot to me.
+Your presence makes life feel calmer,
+and being with you always feels right.
+I’m grateful for you today and always.
+
+Happy Birthday, Nikita 🌸
+    </p>
+  </section>
+
+  <footer>
+    Made with ❤️ just for Nikita
+  </footer>
+
+</body>
+</html>
